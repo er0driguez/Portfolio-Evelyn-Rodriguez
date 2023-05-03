@@ -3,6 +3,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from "react-icons/ai";
 import Image from "next/image";
 //import profilePic from "../public/placeholder.png/";
+import design from '../public/design.png'
 
 export default function Home() {
   return (
@@ -40,7 +41,21 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1'>Services I Offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800"> Blah Blah </p>
+            <p className="text-md py-2 leading-8 text-gray-800"> I’m a passionate, results-driven and organized <span className="text-teal-500">software developer</span> with the added bonus of extensive hospitality and client services experience. I started my software journey with self-teaching and eventually moved up to a competitive bootcamp program where I mastered the PERN stack. I’ve steadily enhanced my base of technological knowledge through independent projects, self-study and finding new technologies to enhance old solutions.  </p>
+            <p className="text-md py-2 leading-8 text-gray-800"> New paragraph with words </p>
+          </div>
+          <div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={design} width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'> Beautiful Designs </h3>
+              <p className='py-2'>
+                Creating beautiful desifgns blah blah blah blah blah 
+              </p>
+              <h4 className="py-4 text-teal-600"> Design Tools I Use </h4>
+              <p className='text-gray-800 py-1'>Photoshop</p>
+              <p className='text-gray-800 py-1'>Whatever</p>
+              <p className='text-gray-800 py-1'>Another THing</p>
+            </div>
           </div>
         </section>
       </main>
